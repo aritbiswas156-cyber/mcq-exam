@@ -10,7 +10,7 @@ if(loginForm){
 		cont teacher=document.getElementById("teacherName").value;
 		cont password=document.getElementById("examPassword").value;
 		
-	if(passeord==="exam123"){
+	if(password==="exam123"){
 		seassionStorage.setItem("studentName",name);
 		window.location.herf="exam.html";    
 	}	
